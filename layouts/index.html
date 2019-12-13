@@ -15,7 +15,7 @@
 	<title>{{ .Site.Title }}</title>
 </head>
 <body>
-{{ $directory := "themes/hugo-theme-lean-launch-page/static/" }}
+{{ $directory := "themes/hugo-landing-page/static/" }}
 {{ $filename := "favicon.png" }}
 {{ if (where (readDir $directory) "Name" $filename) }}
 	<img class="logo" src="/favicon.png" alt="Logo" />
