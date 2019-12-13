@@ -14,7 +14,7 @@ body{
 body{
 	box-sizing: border-box;
 	border-top: 3px solid #444444;
-	background-color: #EBEBEE;
+	background-color: #FFFFFF;
 	padding: 20px 20px;
 	height: 100%;
 	text-align: center;
@@ -36,14 +36,14 @@ body{
 	h1{
 		margin-top: 10%;
 		margin-bottom: 0;
-		color: #06385d;
-		font-family: "Nunito";
+		color: #3333CC;
+		font-family: 'Overpass', sans-serif;
 		font-size: 3.4rem;
 		letter-spacing: 2px;
 		line-height: 1.0;
 	}
 		span.logo{
-			font-family: "Nunito";
+			font-family: 'Overpass', sans-serif;
 		}
 
 	img{
@@ -67,7 +67,7 @@ body{
 	}
 		form input{
 			float: left;
-			border: none;
+			border: 3px solid #444444;
 			padding: 0;
 			height: 40px;
 		}
@@ -79,8 +79,7 @@ body{
 			}
 
 			form input[type="submit"]{
-				background-color: #FFD700;
-				background-color: #8e132a;
+				background-color: #3333CC;
 				width: 20%;
 				color: white;
 				font-weight: bold;
